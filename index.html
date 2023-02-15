@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Movie Watchlist</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="header-flex">
+                <h1>Find your film</h1>
+                <a href="watchlist.html">My Watchlist</a>
+            </div>
+            <div class="search-bar">
+                <img class="icon" src="images/search-icon.png" alt="search icon">
+                <input type="text" placeholder="Search for a movie">
+                <button>Search</button> 
+            </div>
+        </header>
+        
+        <!-- Defualt main: -->
+        <!-- <main>
+            <img src="images/movie-icon.png" alt="movie icon">
+            <p>Start exploring</p>
+        </main> -->
+
+        <main>
+            <section class="film">
+                <img class="film-img" src="images/film-banner.png" alt="Blade Runner film banner">
+                <div class="flex-container-column">
+                    <div class="flex-container">
+                        <h2 class="film-name">Blade Runner</h2>
+                        <p class="film-rate"> <img class="icon" src="images/star-icon.png" alt="star icon"> 8.1</p>
+                    </div>
+                    <div class="flex-container">
+                        <p class="film-time">117 min</p>
+                        <p class="film-categories">Action, Drama, Sci-fi</p>
+                        <button class="add-film-btn"> <img class="icon" src="images/plus-icon.png" alt="plus icon"> Watchlist</button>
+                    </div>
+                    <p class="film-description">A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.</p>
+                </div>
+            </section>
+            <hr>
+
+            <!-- COPIED THE ABOVE SECTION -->
+            <section class="film">
+                <img class="film-img" src="images/film-banner.png" alt="Blade Runner film banner">
+                <div class="flex-container-column">
+                    <div class="flex-container">
+                        <h2 class="film-name">Blade Runner</h2>
+                        <p class="film-rate"> <img class="icon" src="images/star-icon.png" alt="star icon"> 8.1</p>
+                    </div>
+                    <div class="flex-container">
+                        <p class="film-time">117 min</p>
+                        <p class="film-categories">Action, Drama, Sci-fi</p>
+                        <button class="add-film-btn"> <img class="icon" src="images/plus-icon.png" alt="plus icon"> Watchlist</button>
+                    </div>
+                    <p class="film-description">A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.</p>
+                </div>
+            </section>
+            
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
