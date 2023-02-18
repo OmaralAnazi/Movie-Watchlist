@@ -7,14 +7,33 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     
     <body>
         
-        
+        <div class="content-container">
+            <header>
+                <div class="header-bg">
+                    <div class="header-flex">
+                        <h1>My Watchlist</h1>
+                        <a href="index.html">Search for movies</a>
+                    </div>
+                </div>
+            </header>
 
-        <script src="index.js"></script>
+            <br>
+            <main id="movies">
+                <div class="initial-main-state">
+                    <img class="initial-img" src="images/movie-icon.png" alt="movie icon">
+                    <p class="initial-text">Start exploring</p>
+                </div>
+            </main>
+
+            <p id="notification-message" class="notification-animation"> <img class="icon" src="images/checked-icon.png" alt="checked icon"> Show is removed! </p>
+        </div>
+
+        <script src="js/watchlist.js"></script>
     </body>
 
 </html>
